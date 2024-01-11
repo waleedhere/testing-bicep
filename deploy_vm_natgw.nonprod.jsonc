@@ -1,0 +1,46 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vmName": {
+            "value": "vm-nonprd-01"
+        },
+        "virtualMachineSKU": {
+            "value": "Standard_B4ms"
+        },
+        "vnetName": {
+            "value": "nonprdvnetwehub01"
+        },
+        "subnetName": {
+            "value": "nonprdsubnwehub01"
+        },
+        "vnetAddressSpace": {
+            "value": "10.0.0.0/16"
+        },
+        "vnetSubnetPrefix": {
+            "value": "10.0.0.0/24"
+        },
+        "nsgName": {
+            "value": "nsg-1"
+        },
+        "networkInterfaceName": {
+            "value": "nic-1"
+        },
+        "vmAdminUsername": {
+            "value": "nonprd-bas-vmadmin"
+        },
+        "natGatewayName": {
+            "value": "natgw-test-01"
+        },
+        "publicIpName": {
+            "value": "pip-natgw"
+        },
+        "skuName": {
+            "value": "Standard"
+        },
+        "vmAdminPassword": {
+            "value": "AzurePortal@123"
+        }
+    
+    }
+}
